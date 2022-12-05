@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JackTn/template-typescript/issues"
   },
-  "homepage": "https://github.com/JackTn/template-typescript#readme"
+  "homepage": "https://github.com/JackTn/template-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
