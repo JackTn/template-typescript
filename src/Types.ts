@@ -1,10 +1,10 @@
 /**
- * Object that represents the settings of a new swagger to be created this
+ * Descritpion for description
  *
  * @export
- * @interface Swagger
+ * @interface Example
  */
-export interface RepoNaturalKey {
+export interface Example {
   owner: string;
   repo: string;
 }
@@ -15,7 +15,7 @@ export interface RepoNaturalKey {
  * @export
  * @interface Swagger
  */
-export interface WorkItemNaturalKey extends RepoNaturalKey {
+export interface WorkItemNaturalKey extends Example {
   branch: string;
   baseBranch: string;
 }
@@ -34,4 +34,4 @@ export type MessageLevel = 'Info' | 'Warning' | 'Error';
  * @export
  * @interface Swagger
  */
-export type Swagger = MessageLevel & RepoNaturalKey;
+export type Swagger = MessageLevel & Example;

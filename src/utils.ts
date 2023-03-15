@@ -1,3 +1,4 @@
-export const add = () => {
-    return 10;
-}
+import { repo, organization } from "./Constants"
+
+console.log(repo)
+console.log(organization)
