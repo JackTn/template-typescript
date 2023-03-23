@@ -7,14 +7,18 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch index",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "name": "Launch Program",
             "program": "${workspaceFolder}/src/index.ts",
+            // "preLaunchTask": "tsc: build - tsconfig.json",
+            // "skipFiles": [],
             "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+                "${workspaceFolder}/dist/*.js"
+            ],
+            // "cwd": "${workspaceRoot}",
+            // "args": [
+            //     "${workspaceFolder}/demo.ts"
+            // ],
+            // "runtimeArgs": ["-r","ts-node/register"] 
         }
     ]
 }
