@@ -11,5 +11,6 @@
 1. typescript config
 2. vscode config
 3. add environment variables
-
+4. add jest
+5. add prettier
 [delete](https://blog.csdn.net/kouzuhuai2956/article/details/122463063)
